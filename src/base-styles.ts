@@ -7,6 +7,7 @@ export const baseStyles = css`
     --ninja-overflow-background: rgba(255, 255, 255, 0.5);
     --ninja-text-color: rgb(60, 65, 73);
     --ninja-font-size: 16px;
+    --ninja-font-family: 'Roboto', sans-serif;
     --ninja-top: 20%;
 
     --ninja-key-border-radius: 0.25em;
@@ -22,7 +23,11 @@ export const baseStyles = css`
 
     --ninja-modal-background: #fff;
     --ninja-modal-shadow: rgb(0 0 0 / 50%) 0px 16px 70px;
-
+    --ninja-modal-border-radius: 0.5em;
+    --ninja-modal-border-width: 1px;
+    --ninja-modal-border-color: #e0e0e0;
+    --ninja-modal-border-style: solid;
+    
     --ninja-actions-height: 300px;
     --ninja-group-text-color: rgb(144, 149, 157);
 
@@ -52,6 +57,7 @@ export const baseStyles = css`
     --ninja-separate-border: 1px solid var(--ninja-secondary-background-color);
 
     --ninja-modal-shadow: 0 16px 70px rgba(0, 0, 0, 0.2);
+    --ninja-modal-border-color: #222222;
 
     --ninja-group-text-color: rgb(144, 149, 157);
 
@@ -93,7 +99,10 @@ export const baseStyles = css`
     min-width: 0px;
     will-change: transform;
     background: var(--ninja-modal-background);
-    border-radius: 0.5em;
+    border-radius: var(--ninja-modal-border-radius);
+    border-width: var(--ninja-modal-border-width);
+    border-color: var(--ninja-modal-border-color);
+    border-style: var(--ninja-modal-border-style);
     box-shadow: var(--ninja-modal-shadow);
     max-width: var(--ninja-width);
     overflow: hidden;

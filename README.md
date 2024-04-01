@@ -234,6 +234,7 @@ If you need more style control, use any of the CSS variables below.
 | --ninja-overflow-background        | rgba(255, 255, 255, 0.5);          |
 | --ninja-text-color                 |  rgb(60, 65, 73);                  |
 | --ninja-font-size                  | 16px;                              |
+| --ninja-font-family                | 'Roboto', sans-serif;              |
 | --ninja-top                        | 20%;                               |
 | --ninja-key-border-radius          | 0.25em                             |
 | --ninja-accent-color               | rgb(110, 94, 210);                 |
@@ -241,14 +242,18 @@ If you need more style control, use any of the CSS variables below.
 | --ninja-secondary-text-color       |  rgb(107, 111, 118);               |
 | --ninja-selected-background        | rgb(248, 249, 251);                |
 | --ninja-icon-color                 | var(--ninja-secondary-text-color); |
-|     --ninja-icon-size         | 1.2em;                                             |
-|     --ninja-separate-border   | 1px solid var(--ninja-secondary-background-color); |
-|     --ninja-modal-background  | #fff;                                              |
-|     --ninja-modal-shadow      | rgb(0 0 0 / 50%) 0px 16px 70px;                    |
-|     --ninja-actions-height    | 300px;                                             |
-|     --ninja-group-text-color  |  rgb(144, 149, 157);                               |
-|     --ninja-footer-background | rgba(242, 242, 242, 0.4);                          |
-| --ninja-placeholder-color | #8e8e8e |
+| --ninja-icon-size                  | 1.2em;                             |
+| --ninja-separate-border            | 1px solid var(--ninja-secondary-background-color); |
+| --ninja-modal-background           | #fff;                                              |
+| --ninja-modal-shadow               | rgb(0 0 0 / 50%) 0px 16px 70px;                    |
+| --ninja-modal-border-radius        | 0.5em;                                             |
+| --ninja-modal-border-width         | 1px;                                               |
+| --ninja-modal-border-color         | rgba(255, 255, 255, 0.12);                         |
+| --ninja-modal-border-style         | solid;                                             |
+| --ninja-actions-height             | 300px;                                             |
+| --ninja-group-text-color           |  rgb(144, 149, 157);                               |
+| --ninja-footer-background          | rgba(242, 242, 242, 0.4);                          |
+| --ninja-placeholder-color          | #8e8e8e |
 | --ninja-z-index | 1 |
 
 #### Example
